@@ -1,2 +1,34 @@
 /* Our CSS can go here */
 
+:root {
+    --accentOrange:#FE5757;
+    --accentTurq:#6DFFF2;
+    --backgroundGray:#A7A6A5;
+}
+
+h1 {
+    font-family: SF Pro Display;
+    font-size: 34px;
+
+}
+
+h2 {
+    font-family: SF Pro Display;
+    font-size: 22px;
+
+}
+
+body {
+    font-family: SF Pro Text;
+    font-size: 15px;
+
+}
+
+/* this overrides the bootstrap class of the same name */
+.btn-primary {
+    background-color: var(--accentOrange)
+}
+
+.btn-secondary {
+    background-color: var(--backgroundGray)
+}
