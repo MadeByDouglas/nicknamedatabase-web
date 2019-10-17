@@ -1,7 +1,7 @@
 /* Our CSS can go here */
 
 :root {
-    --accentOrange:#FE5757;
+    --accentOrange:rgb(240, 21, 21);
     --accentTurq:#6DFFF2;
     --backgroundGray:#A7A6A5;
 }
